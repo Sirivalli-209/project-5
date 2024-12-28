@@ -1,0 +1,48 @@
+h1{
+    color: red;
+}
+div{
+    margin-top:5%;
+    margin-bottom: auto;
+    margin-left: 25;
+    margin-right: 25;
+    padding:0%;
+    text-align:center;
+    background-image:-webkit-image-set("https://c4.wallpaperflare.com/wallpaper/632/382/363/abstract-waveforms-blue-background-lines-wallpaper-preview.jpg") ; 
+ }
+.mydata{
+    margin: 0 auto;
+    background: hs1(155,94%,37%);
+    box-sizing: border-box;
+}
+/*smart phones (portrait and landscape)*/
+@media screen and (min-width: 767px){
+    .mydata{
+        width:100px;
+        padding:5;
+    }
+    body{
+        background-color: rgb(139, 183, 219);
+    }
+}
+/*Tablets , ipads(portrait and landscape)*/
+@media screen and (min-width:768px) and (max-width:1024px){
+    .mydata{
+    width:750px;
+    padding:5px 10px;
+    }
+    body{
+        background-color: rgb(213, 216, 179);
+    }
+}
+ /*Desktop and laptops*/
+ @media screen and (min-width:1024px){
+    .mydata{
+     width:1200px;
+     padding:5px 20px;
+    }
+    body{
+        background-color: rgb(189, 132, 184);
+    }
+}
+

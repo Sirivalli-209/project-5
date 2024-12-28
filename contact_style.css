@@ -1,0 +1,26 @@
+h1{
+    margin-top: 5%;
+    text-decoration-line:underline;
+    text-align:center;
+}
+div{
+   margin-top:5%;
+   margin-bottom: auto;
+   margin-left: 25;
+   margin-right: 25;
+   padding:0%;
+   text-align:center;
+   background-image:-webkit-image-set("https://www.pikpng.com/pngl/b/222-2225097_contact-us-contact-us-background-image-free-clipart.png") ; 
+}
+.myInfo{
+    background-color: acqua;
+    padding:20px;
+}
+body{
+    background-color: rgb(139, 183, 219);
+}
+@media screen and (min-width:550px){
+    body{
+        background-color: rgb(136, 105, 155);
+    }
+}

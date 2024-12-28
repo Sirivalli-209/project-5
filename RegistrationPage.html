@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="registration_style.css">
+        <script src="Registration_Validation.js">
+        </script>
+
+     </head>
+    <div>
+        <h1>REGISTER NOW</h1><br><br>
+        <body>
+            <h4>
+            <form name="myform" action="LoginPage.html" return RegisterValidation()">
+            <label for="fname">First Name: <span class="required">*</span></label>
+            <input type="text" id="fname" name="fname" placeholder="First Name" required autofocus><br><br>
+            
+            <label for="lname">Last Name: <span class="required">*</span></label>
+            <input type="text" id="lname" name="lname" placeholder="Last Name" required autofocus><br><br>
+
+            <label for="email">Email: <span class="required">*</span></label>
+            <input type="email" id="email" name="email" placeholder="Email" required autofocus><br><br>
+
+            <label for="mobile no">Mobile no: <span class="required">*</span></label>
+            <input type="text" id="mobile no" name="mobile no" placeholder="Mobile no" required autofocus><br><br>
+            
+            Alternate Email:<input type="email" id="email" name="email" placeholder="Alternate Email" autofocus><br><br><br>
+
+            <input type="submit" value="Register"><br>
+            </h4>
+          </form>
+        </body>
+    </div>
+</html>

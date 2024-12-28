@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Contact Page</title>
+        <link rel="stylesheet" href="contact_style.css"> 
+        <script src="Contact_Validation.js"></script>   
+    </head>
+    <div>
+    <h1>CONTACT US</h1>
+    <h5>If you have question, leave here....</h5>
+    <body>
+        <form name="myform"  onsubmit="return ContactValidation()">
+        Name:<input type="text" name="name" autofocus><br><br>
+        Email:<input type="text" name="email" autofocus><br><br>
+        Mobile:<input type="text" name="mobileno" autofocus><br><br>
+        Your question:<br>
+        <textarea name="text" cols="30" rows="10" autofocus></textarea><br><br><br>
+        <input type="submit" autofocus><br><br>
+        </form>
+    </body>
+    </div>
+</html>
